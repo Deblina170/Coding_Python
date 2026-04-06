@@ -1,0 +1,18 @@
+class Deblina:
+    def __init__(self,data):
+        self.data=data
+        self.left=None
+        self.right=None
+        self.parent=None
+
+a = [1,10,11,8,6,12,14,7,]
+
+    
+root=None
+print(root)
+root=Deblina(a[0])
+print(root)
+print(root.data)
+b=Deblina(a[1])
+print(b.data)
+
